@@ -33,6 +33,10 @@
     margin: auto;
 }
 
+.iconErr{
+    margin-left: 1vh;
+}
+
 @media (max-width:520px ){
     .form_container{
         width: 35vh;

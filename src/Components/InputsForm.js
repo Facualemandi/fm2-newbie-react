@@ -1,6 +1,7 @@
 import Button from "./Button";
 import React, { useState } from "react";
 import "../Styles/InputsForm.css";
+import  iconErr from '../Images/icon-error.svg' 
 
 const InputsForm = ({
   exp,
@@ -73,7 +74,7 @@ const InputsForm = ({
           placeholder="Enter Your Name"
         />
         {validoName === "true" && <p className="correct">Nombre Ingresado</p>}
-        {validoName === "false" && <p className="incorrect">El nombre solo puede contener letras</p>}
+        {validoName === "false" && <p className="incorrect">El nombre solo puede contener letras <img alt="error" className="iconErr" src={iconErr}/> </p>}
         <input
           value={onValueSurname.campo}
           onChange={onChangeSurname}
@@ -81,7 +82,7 @@ const InputsForm = ({
           placeholder="Enter Your Surname"
         />
         {validoSurname === "true" && <p className="correct">Apellido Ingresado!</p>}
-        {validoSurname === "false" && <p className="incorrect">El apellido solo puede contener letras</p>}
+        {validoSurname === "false" && <p className="incorrect">El apellido solo puede contener letras <img alt="error" className="iconErr" src={iconErr}/></p>}
         <input
           value={onValueEmail.campo}
           onChange={onChangeEmail}
@@ -89,7 +90,7 @@ const InputsForm = ({
           placeholder="Enter Your Email Adress..."
         />
         {validoEmail === "true" && <p className="correct">  Email Ingresado! </p>}
-        {validoEmail === "false" && <p className="incorrect">El Formato de Email es invalido.</p>}
+        {validoEmail === "false" && <p className="incorrect">El Formato de Email es invalido. <img alt="error" className="iconErr" src={iconErr}/></p>}
         <input
           value={onValuePass.campo}
           onChange={onChangePass}
@@ -97,7 +98,7 @@ const InputsForm = ({
           placeholder="Enter Your Password"
         />
         {validoPass === "true" && <p className="correct">Password Ingresado!</p>}
-        {validoPass === "false" && <p className="incorrect">Incorrecto</p>}
+        {validoPass === "false" && <p className="incorrect">La password Ingresada, es incorrecta. <img alt="error" className="iconErr" src={iconErr}/></p>}
 
         <Button verifica={verify} />
       </form>
