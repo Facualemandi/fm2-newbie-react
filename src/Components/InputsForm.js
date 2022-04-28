@@ -82,7 +82,7 @@ const InputsForm = ({
           placeholder="Enter Your Surname"
         />
         {validoSurname === "true" && <p className="correct">Apellido Ingresado!</p>}
-        {validoSurname === "false" && <p className="incorrect">El apellido solo puede contener letras <img alt="error" className="iconErr" src={iconErr}/></p>}
+        {validoSurname === "false" && <p className="incorrect">El apellido solo puede contener letras! <img alt="error" className="iconErr" src={iconErr}/></p>}
         <input
           value={onValueEmail.campo}
           onChange={onChangeEmail}
