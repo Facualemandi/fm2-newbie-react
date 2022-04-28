@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fm2-newbie-react/static/css/main.e5c6d5a3.css",
+    "main.js": "/fm2-newbie-react/static/js/main.db4e58df.js",
+    "static/media/bg-intro-desktop.png": "/fm2-newbie-react/static/media/bg-intro-desktop.059183eea52640c5068d.png",
+    "index.html": "/fm2-newbie-react/index.html",
+    "static/media/icon-error.svg": "/fm2-newbie-react/static/media/icon-error.b72f792e9c900128f5c88f10a0d8d4b7.svg",
+    "main.e5c6d5a3.css.map": "/fm2-newbie-react/static/css/main.e5c6d5a3.css.map",
+    "main.db4e58df.js.map": "/fm2-newbie-react/static/js/main.db4e58df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5c6d5a3.css",
+    "static/js/main.db4e58df.js"
+  ]
+}
