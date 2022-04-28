@@ -1,6 +1,5 @@
 .form_container{
     width: 50vh;
-    height: 40vh;
     display: flex;
     flex-direction: column;
 }
@@ -9,6 +8,29 @@
     margin: 1.3vh;
     border-radius: 8px;
     border: 1px solid grey;
+}
+
+.correct{
+    color: green;
+    background-color: rgb(223, 252, 223);
+    font-style: italic;
+    width: 47vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    margin: auto;
+
+}
+
+.incorrect{
+    color: red;
+    background-color: rgb(255, 215, 210);
+    font-style: italic;
+    width: 47vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    margin: auto;
 }
 
 @media (max-width:520px ){

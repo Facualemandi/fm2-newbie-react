@@ -1,5 +1,6 @@
 .section_content{
     background-color: white;
+    min-height: max-content;
     box-shadow: 1px 1px 5px 1px black;
     padding: 2vh;
     border-radius: 8px;
