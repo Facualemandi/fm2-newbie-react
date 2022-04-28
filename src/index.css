@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+   background-image: url(../src/Images/bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid ;
+  height: 100vh;
+}
+
+@media (max-width:1065px ){
+  .main{
+    display: flex;
+    flex-direction: column;
+  }
+}
+

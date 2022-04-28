@@ -1,0 +1,18 @@
+.form_container{
+    width: 50vh;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+}
+.form_container input{
+    padding: 1.5vh;
+    margin: 1.3vh;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+
+@media (max-width:520px ){
+    .form_container{
+        width: 35vh;
+    }
+}

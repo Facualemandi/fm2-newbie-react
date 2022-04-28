@@ -1,0 +1,19 @@
+.p_free{
+    padding: 1.5vh;
+    margin-bottom: 1.5vh;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(248, 32%, 49%);
+    box-shadow: 1px 1px 5px 1px black;
+    font-family: sans-serif;
+    color: white;
+}
+
+@media (max-width:520px ){
+    .p_free{
+        width: 40vh;
+        margin:2vh auto;
+    }
+}

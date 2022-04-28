@@ -1,0 +1,22 @@
+.buttom_claim{
+    width: 47.5vh;
+    padding: 1.5vh;
+    margin: 1.3vh;
+    border-radius: 8px;
+    border: none;
+    background-color: hsl(154, 59%, 51%);
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.buttom_claim:hover{
+    background-color: hsl(154, 82%, 67%);
+    transition: 0.3s;
+}
+
+@media (max-width:520px ){
+    .buttom_claim{
+        width: 32.5vh;
+    }
+}
